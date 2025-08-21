@@ -29,7 +29,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-`git clone https://github.com/imabhi165/Currency-Converter.git`
+git clone https://github.com/imabhi165/Currency-Converter.git
 
 # Navigate into the project directory
 cd currency-converter-app
