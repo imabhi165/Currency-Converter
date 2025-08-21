@@ -23,7 +23,8 @@ It allows users to convert between different currencies using real-time exchange
 ---
 
 ## 🚀 Installation
-git 
+
+git
 Follow these steps to run the project locally:
 
 ```bash
