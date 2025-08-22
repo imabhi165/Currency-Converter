@@ -34,7 +34,7 @@ Follow these steps to run the project locally:
 git clone https://github.com/imabhi165/Currency-Converter.git
 
 # Navigate into the project directory
-cd currency-converter-app
+cd Currency-Converter
 
 # Install dependencies
 npm install
@@ -42,4 +42,5 @@ npm install
 # Start the development server
 npm run dev
 ```
+
 
