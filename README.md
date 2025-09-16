@@ -45,11 +45,6 @@ npm install
 # Start the development server
 npm run dev
 ```
----
 
-# Go and checkout this link :
-```
-
-```
 
 
