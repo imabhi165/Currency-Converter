@@ -6,9 +6,18 @@ const Navbar = ({ setPage }) => {
     <nav className="sticky top-0 z-50 py-2 px-4 rounded-b-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-2xl backdrop-blur-lg border-b-4 border-indigo-300">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo / App Name */}
-        <div className="flex items-center gap-2 drop-shadow-xl">
-          <img src={`${import.meta.env.BASE_URL}src/assets/logo.svg`} alt="Logo" className="w-10 h-10 rounded-full border-2 border-white shadow-lg" />
-          <span className="text-white text-3xl font-extrabold tracking-wide" style={{textShadow: '2px 2px 8px #6D28D9'}}>VoyageX</span>
+        <div className="flex items-center gap-2 drop-shadow-2xl">
+          <span
+            className="text-5xl font-extrabold italic tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 via-purple-600 to-indigo-700 animate-pulse"
+            style={{
+              textShadow:
+                '0 2px 16px #a21caf, 0 1px 0 #fff, 0 0px 40px #6366f1',
+              letterSpacing: '0.2em',
+              fontFamily: 'cursive, fantasy, sans-serif',
+            }}
+          >
+            Voyage<span className="text-yellow-300 drop-shadow-lg">X</span>
+          </span>
         </div>
         {/* Hamburger Icon for mobile */}
         <button
