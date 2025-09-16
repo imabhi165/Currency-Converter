@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -11,9 +12,9 @@ const Navbar = () => {
           </div>
           {/* Navigation Links */}
           <div className="hidden md:flex space-x-6">
-            <a href="#home" className="text-white hover:text-yellow-300 font-medium transition">Home</a>
+            <Link to="/" className="text-white hover:text-yellow-300 font-medium transition">Home</Link>
             <a href="#features" className="text-white hover:text-yellow-300 font-medium transition">Features</a>
-            <a href="https://imabhi165.github.io/Currency-Converter/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-300 font-medium transition">Currency converter Application</a>
+            <Link to="/converter" className="text-white hover:text-yellow-300 font-medium transition">Currency Converter</Link>
           </div>
         </div>
       </div>
