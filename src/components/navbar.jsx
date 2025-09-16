@@ -7,7 +7,7 @@ const Navbar = ({ setPage }) => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo / App Name */}
         <div className="flex items-center gap-2 drop-shadow-xl">
-          <img src="src/assets/logo.ico" alt="Logo" className="w-10 h-10 rounded-full border-2 border-white shadow-lg" />
+          <img src="src/assets/logo.svg" alt="Logo" className="w-10 h-10 rounded-full border-2 border-white shadow-lg" />
           <span className="text-white text-3xl font-extrabold tracking-wide" style={{textShadow: '2px 2px 8px #6D28D9'}}>VoyageX</span>
         </div>
         {/* Hamburger Icon for mobile */}
