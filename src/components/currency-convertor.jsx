@@ -116,6 +116,11 @@ const CurrencyConverter = () => {
           onChange={(e) => setAmount(e.target.value)}
           type="number"
           className="w-full p-2 border border-gray-00 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 mt-1"
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              convertCurrency();
+            }
+          }}
         />
       </div>
 
