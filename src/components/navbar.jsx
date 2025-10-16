@@ -16,7 +16,7 @@ const Navbar = ({ setPage }) => {
               fontFamily: 'cursive, fantasy, sans-serif',
             }}
           >
-            Voyage<span className="text-yellow-300 drop-shadow-lg">X</span>
+            ABHI<span className="text-yellow-300 drop-shadow-lg">X</span>
           </span>
         </div>
         {/* Hamburger Icon for mobile */}
